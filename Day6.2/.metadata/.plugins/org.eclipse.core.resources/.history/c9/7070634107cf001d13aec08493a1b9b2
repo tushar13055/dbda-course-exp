@@ -1,0 +1,27 @@
+package inheritance;
+
+public abstract class FootBall extends Players {
+	private int goals;
+	private int matchesPlayed;
+	public FootBall(String name,int age,String Country,int goals,int machesPlayed) {
+		super(name,age,Country);
+		System.out.println("in FootBall ctor");
+		this.goals=goals;
+		this.matchesPlayed=machesPlayed;
+		
+	}
+	public String toString() {
+		return "FootBall"+super.toString()
+		+"goals"+goals;
+	}
+	public void avgs() {
+		System.out.println((goals/matchesPlayed)*100);
+	}
+	
+	@Override
+	public void play() {
+		System.out.println("plays FootBall");
+	}
+}
+
+

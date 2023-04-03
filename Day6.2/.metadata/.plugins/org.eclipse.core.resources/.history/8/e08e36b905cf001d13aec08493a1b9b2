@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Players {
+	private String name;
+	private int age;
+	public Players(String name, int age) {
+		System.out.println("in Player ctor");
+		this.name=name;
+		this.age=age;
+	}
+	public String toString() {
+		return name+" "+age;
+	}
+}

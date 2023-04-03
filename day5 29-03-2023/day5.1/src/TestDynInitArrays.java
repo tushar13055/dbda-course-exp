@@ -1,0 +1,19 @@
+
+public class TestDynInitArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int value =10;
+		int[][] data=new int[4][3];
+		for(int i=0;i<data.length;i++)
+			for(int j=0;j<data[i].length;j++)
+				data[i][j]=value++;
+		System.out.println();
+		for(int[]i :data) {
+			for(int j: i) {
+				System.out.print(j +" ");
+			}
+		    System.out.println();
+		}
+	}
+}

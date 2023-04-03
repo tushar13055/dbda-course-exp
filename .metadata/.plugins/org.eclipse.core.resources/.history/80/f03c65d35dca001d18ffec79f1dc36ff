@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class PrimeNumbersInRange {
+	public static void main(String args[]) {
+		Scanner tushar = new Scanner(System.in);
+		
+		System.out.println("Enter range start");
+		int start = tushar.nextInt();
+		
+		System.out.println("Enter range end");
+		int end = tushar.nextInt();
+//		System.out.println(start +" " + end);
+		
+		int i = 2;
+		boolean flag = false;
+		
+		while(start <= end) {
+//			System.out.println(start +" " + i);
+			flag = false;
+			
+			// not a prime number, continue checking with other number
+			if((start % i) == 0) {
+				start++;
+				i = 2;
+				flag = true;
+			}
+			
+			// prime number found
+			if(flag == false) {
+				if(i >= start) {
+					System.out.println(i);
+					i = 2;
+					start++;
+				} else {
+					i++;
+					flag = false;
+				}
+			}
+		}
+	}
+}

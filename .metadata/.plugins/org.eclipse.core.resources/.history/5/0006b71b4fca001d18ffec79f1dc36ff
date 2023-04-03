@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+class Testscanner {
+	static Scanner tushar = new Scanner(System.in);
+	static int num1, num2;
+
+	public static void main(String[] args) {
+		
+		while(true) {
+			System.out.println("Press 1 to add. 2 to substract, 3 to multiply, 4 to divide");
+			System.out.println("Or write quit to quit the program");
+			String operation = tushar.next();
+			switch(operation) {
+				case "1":
+					System.out.println("Sum of " + num1 +" & " + num2 +" = " + calculate("add"));
+					break;
+					
+				case "2":
+					System.out.println("Substraction of " + num1 +" & " + num2 +" = " + calculate("substract"));
+					break;
+					
+				case "3":
+					System.out.println("Multiplication of " + num1 +" & " + num2 +" = " + calculate("multiply"));
+					break;
+					
+				case "4":
+					System.out.println("Division of " + num1 +" & " + num2 +" = " + calculate("divide"));
+					break;
+					
+				case "quit":
+					tushar.close();
+					System.exit(0);
+					break;
+					
+				default:
+					System.out.println("Invalid operation");
+					tushar.close();
+					System.exit(0);
+					break;
+			}
+		}
+	}
+	
+	public static int calculate(String operation) {
+		int result = 0;
+		
+		System.out.println("Enter num1: ");
+		num1 = tushar.nextInt();
+		System.out.println("Enter num2: ");
+		num2 = tushar.nextInt();
+		
+		if(operation == "add") {
+			result = num1 + num2;
+		}
+		
+		if(operation == "substract") {
+			result = num1 - num2;
+		}
+		
+		if(operation == "multiply") {
+			result = num1 * num2;
+		}
+		
+		if(operation == "divide") {
+			result = num1 / num2;
+		}
+		
+		return result;
+	}
+}

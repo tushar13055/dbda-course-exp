@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class PrimeNumbersInRange {
+	public static void main(String args[]) {
+		Scanner tushar = new Scanner(System.in);
+		
+		System.out.println("Enter range start");
+		int start = tushar.nextInt();
+		
+		System.out.println("Enter range end");
+		int end = tushar.nextInt();
+		
+		if(start <= 2) {
+			System.out.println("1");
+			System.out.println("2");
+		}
+		
+		int i = 2;
+		
+		while(start <= end) {
+			if(((start%i) == 0) &&(i<=start/2)) {
+				i=i+1;
+				continue;
+			}
+			else {
+				System.out.println(start);
+				start=start+1;
+				i =2;}
+			}
+		}
+	}

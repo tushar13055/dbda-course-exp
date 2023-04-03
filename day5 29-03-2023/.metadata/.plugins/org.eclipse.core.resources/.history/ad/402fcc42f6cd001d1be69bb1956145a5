@@ -1,0 +1,23 @@
+package inheritance;
+
+public class Player {
+	private String name;
+	private int age;
+	private String country;
+	public Player(String name,int age,String country)
+	{
+		System.out.println("in player ctor");
+		this.name=name;
+		this.country=country;
+		this.age=age;
+	}
+	//add overloaded def arg less ctor
+//	public Person() {
+//		// TODO Auto-generated constructor stub
+//	}
+	//add a method to ret complete details
+	public String getDetails()
+	{
+		return "name : "+name +" age : "+age+"country: "+country;
+	}
+}

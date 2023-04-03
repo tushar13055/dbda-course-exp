@@ -1,0 +1,16 @@
+package inheritance;
+public class Faculty extends Person {
+	private int trainingExperience ;
+	private String domain;
+	private String firstName;
+	private String lastName;
+	private int age;
+
+public Faculty(int trainingExperience,String domain){
+	super(String firstName, String lastName, int age);
+	
+	this.trainingExperience=trainingExperience;
+	this.domain=domain;
+	
+}
+}

@@ -1,0 +1,29 @@
+package com.acts;
+
+public class Box {
+	private int length, width, height, side;
+	
+	public Box(int length, int width, int height) {
+		this.length = length;
+		this.height = height;
+		this.width = width;
+	}
+	
+	public Box(int side) {
+//		width = height = length = side;
+		this(side, side, side);
+	}
+	public Box() {
+		this(-1);
+	}
+	
+	public String getDimenstions() {  
+		return ("Length: " + length + " Width: " + width + " Height: " + height);
+	}
+	public boolean isEqual(Box anotherBox) {
+		return this.width== anotherBox.width && this.length== anotherBox.length && this.height== anotherBox.height;
+				
+				
+	}
+	
+}

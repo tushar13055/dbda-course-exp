@@ -1,0 +1,20 @@
+package Array;
+
+import java.util.Scanner;
+
+public class TestBoxArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter no of boxes");
+		Box[] boxes = new Box[sc.nextInt()];
+		
+		for(Box b: boxes) {
+			System.out.println(b);
+		}
+		sc.close();
+	}
+
+}

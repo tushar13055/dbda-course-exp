@@ -1,0 +1,18 @@
+public class Box {
+	private double width, height, depth;
+	
+	Box(double height, double width, double depth) {
+		this.height = height;
+		this.width = width;
+		this.depth = depth;
+	}
+	
+	public static void main(String args[]) {
+		Box box = new Box(1.2, 3.2, 4.5);
+		System.out.println(box.getVolume());
+	}
+	
+	double getVolume() {
+		return this.height * this.width * this.depth;
+	}
+}

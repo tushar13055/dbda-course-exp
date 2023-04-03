@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class RegisterCustomer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		Customer customer = new Customer();
+		System.out.println(customer.getCustomerDetails("Tushar", "tusharpatil@gmail.com", 22, 100.21));
+	}
+
+}

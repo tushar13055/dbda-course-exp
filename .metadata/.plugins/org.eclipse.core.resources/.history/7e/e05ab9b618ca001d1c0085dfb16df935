@@ -1,0 +1,19 @@
+import java.util.*;
+
+class Tecaner {
+
+	public static void main(String[] args) {
+		Scanner tushar = new Scanner(System.in);
+		System.out.println("number de");
+		int i =tushar.nextInt();
+		int j =tushar.nextInt();
+		while (i<j) {
+			System.out.println("Number " + (i++));
+		}
+			
+			
+		
+		tushar.close();
+		
+	}
+}

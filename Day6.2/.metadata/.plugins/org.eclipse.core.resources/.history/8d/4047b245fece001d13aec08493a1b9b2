@@ -1,0 +1,16 @@
+package inheritance;
+
+public class FootBall extends Players {
+	private int goals;
+	public FootBall(String name,int age,int goals) {
+		super(name,age);
+		System.out.println("in FootBall ctor");
+		this.goals=goals;
+		
+	}
+	public String toString() {
+		return "FootBall"+super.toString()
+		+"goals"+goals;
+	}
+}
+

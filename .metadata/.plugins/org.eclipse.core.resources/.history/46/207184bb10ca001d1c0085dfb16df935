@@ -1,0 +1,7 @@
+class SumDouble {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	  System.out.print("Sum " + (Double.parseDouble(args[0]) + Integer.parseInt(args[1])));
+	}
+}

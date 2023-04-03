@@ -1,0 +1,9 @@
+import static java.lang.System.in;
+import static java.lang.System.out.println;
+
+public class TestStatic {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		println("Hello");
+	}
+}

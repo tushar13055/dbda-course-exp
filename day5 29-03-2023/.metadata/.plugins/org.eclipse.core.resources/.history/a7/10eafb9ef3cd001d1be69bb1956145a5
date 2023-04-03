@@ -1,0 +1,19 @@
+package inheritance;
+
+public class CricketPlayer extends  Player{
+	private int runs;
+	
+
+//add a ctor to init complete state of the Faculty
+	public CricketPlayer(String name, int age,String country,int runs) {
+		super(name,age,country);
+		System.out.println("in faculty ctor");
+		//ctor==construtor
+		this.runs = runs;
+	}
+	
+	public String getDetails() {
+		//method overriding
+		return "Player" +super.getDetails() + runs;
+ 	}
+}

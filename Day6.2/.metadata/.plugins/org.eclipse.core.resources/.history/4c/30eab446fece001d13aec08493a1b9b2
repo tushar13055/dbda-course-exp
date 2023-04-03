@@ -1,0 +1,15 @@
+package inheritance;
+
+public class CricketPlayer extends Players {
+	private int runs;
+	public CricketPlayer(String name,int age,int runs) {
+		super(name,age);
+		System.out.println("in CricketPlayer ctor");
+		this.runs=runs;
+		
+	}
+	public String toString() {
+		return "CricketPlayer"+super.toString()
+		+"runs"+runs;
+	}
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+F:\dbda_java\day7 31-03-2023\.metadata\.plugins\org.eclipse.jdt.core
+625734711.index
+1865797976.index
+3136097187.index
+602167833.index
+3425194242.index
+1773393425.index
+3162727586.index

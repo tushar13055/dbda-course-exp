@@ -1,0 +1,11 @@
+package inheritance;
+public class Faculty {
+	private int trainingExperience ;
+	private String domain;
+
+public Faculty(int trainingExperience,String domain){
+	this.trainingExperience=trainingExperience;
+	this.domain=domain;
+	
+}
+}

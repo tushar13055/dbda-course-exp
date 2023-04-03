@@ -1,0 +1,33 @@
+package date_time;
+
+import java.util.*;
+import java.time.LocalDate;
+import java.time.*;
+
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		try(Scanner sc = new Scanner(System.in))
+		{
+			System.out.println("Current Date: "+LocalDate.now());
+			
+			System.out.println("Current Time: "+LocalTime.now());
+			
+			System.out.println("Current date and tim: "+LocalDateTime.now());
+			System.out.println("Current year month day");
+			LocalDate joinDate=LocalDate.of(sc.nextInt(),sc.nextInt(), sc.nextInt());
+			System.out.println("join date :"+joinDate);
+			System.out.println("another year month day");
+			LocalDate dt=LocalDate.parse(sc.next());
+			System.out.println("join date :"+dt);
+			System.out.println("is before");
+			System.out.println(joinDate.isBefore(dt));
+			System.out.println("compare to");
+			System.out.println(joinDate.compareTo(dt));
+		}
+		
+
+	}
+
+}

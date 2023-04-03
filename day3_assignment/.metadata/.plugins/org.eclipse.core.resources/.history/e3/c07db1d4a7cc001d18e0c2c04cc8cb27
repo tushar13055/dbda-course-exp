@@ -1,0 +1,24 @@
+package com.acts.tester;
+//package com.acts.Geometry;
+import com.acts.Geometry;
+
+import java.util.*;
+
+class TestCordinates {
+	public static void main(String[] args) {
+		Scanner tushar = new Scanner(System.in);
+		
+//		int xCordinate, int yCordinate;
+		
+//		System.out.println("Enter xCordinate: ");
+//		xCordinate = tushar.nextInt();
+//		System.out.println("Enter yCordinate: ");
+//		yCordinate = tushar.nextInt();
+//		
+		Geometry point1 = new Geometry(tushar.nextInt(), tushar.nextInt());
+		Geometry point2 = new Geometry(tushar.nextInt(), tushar.nextInt());
+		
+		System.out.println(point1.areCordinatesEqual(point2));
+		tushar.close();
+	}
+}

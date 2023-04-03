@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.acts.Geometry&apos; to &apos;Point2D&apos;&#x0D;&#x0A;- Original project: &apos;src&apos;&#x0D;&#x0A;- Original element: &apos;com.acts.Geometry&apos;&#x0D;&#x0A;- Renamed element: &apos;com.acts.Point2D&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Geometry&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;com.acts{Geometry.java[Geometry" matchStrategy="1" name="Point2D" patterns="*" qualified="true" references="true" similarDeclarations="true" stamp="1679926697560" textual="true" version="1.0"/>
+</session>

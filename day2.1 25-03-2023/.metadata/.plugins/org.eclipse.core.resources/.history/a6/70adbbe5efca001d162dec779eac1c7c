@@ -1,0 +1,10 @@
+
+public class Custmer {
+	private String name,email;
+	private int age;
+	private double creditLimit;
+	
+	String getCustomer() {
+		return ("Name: " + name + "Email: " + email + "Credit Limit: " + creditLimit);
+	}
+}

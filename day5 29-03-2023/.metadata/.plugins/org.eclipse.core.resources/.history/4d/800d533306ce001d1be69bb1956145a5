@@ -1,0 +1,32 @@
+package tester;
+import java.util.Scanner;
+import
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	int option=1;
+	switch(option) {
+	case 1: 
+		
+		break;
+	case 2: 
+		
+		break;
+	case 3: 
+		for(Person p:participants)
+			if(p !=null)
+				sop(p);
+		break;
+	case 4: 
+		Sysout
+			if(p !=null)
+				sop(p);
+		break;
+	default:
+		break;
+	}
+
+}

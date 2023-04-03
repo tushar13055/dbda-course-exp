@@ -1,0 +1,13 @@
+package tester;
+
+import inheritance.*;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		CricketPlayer s1 = new CricketPlayer("Rama",  24,"uganda", 100);
+		
+		System.out.println(s1.getDetails());
+	}
+
+}

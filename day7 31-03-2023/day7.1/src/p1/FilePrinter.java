@@ -1,0 +1,8 @@
+package p1;
+
+public /* abstract */ class FilePrinter implements Printer{
+@Override
+public void print(String someMesg) {
+	System.out.println("saving mesg : "+someMesg+" in the file");
+}
+}

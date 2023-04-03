@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+F:\dbda_java\day4\4.1\.metadata\.plugins\org.eclipse.jdt.core

@@ -1,0 +1,36 @@
+package tester;
+import java.util.Scanner;
+import inheritance.*;
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner sc=new Scanner(System.in);
+	}
+	Person[] participants=new Person[sc.nextInt()];
+	boolean exit=false;
+	int counter=0;
+	while(!exit) {
+		System.out.println("1 register student 2 register facluty 3 display all deatils 4 display specific 0 exit");
+	switch(sc.nextInt()) {
+	case 1: 
+		participants[]
+		break;
+	case 2: 
+		break;
+	case 3: 
+		for(Person p:participants)
+			if(p !=null)
+				sop(p);
+		break;
+	case 4: 
+		System.out.println();
+			if(p !=null)
+				sop(p);
+		break;
+	case 0: 
+		exit=true;
+		break;
+	}
+	}
+}

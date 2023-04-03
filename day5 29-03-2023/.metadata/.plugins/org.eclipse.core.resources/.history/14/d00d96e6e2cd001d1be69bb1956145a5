@@ -1,0 +1,10 @@
+
+public class TestDynInitArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] doubles = {1.2, 1.}; 
+
+	}
+
+}

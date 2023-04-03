@@ -1,0 +1,23 @@
+package com.acts;
+
+public class Box {
+	private int length, width, height, side;
+	
+	public Box(int length, int width, int height) {
+		this.length = length;
+		this.height = height;
+		this.width = width;
+	}
+	
+	public Box(int side) {
+		this.length = side;
+		this.height = side;
+		this.width = side;
+	}
+	
+	public String getDimenstions() {
+		return ("Length: " + length + " Width: " + width + " Height: " + height);
+	}
+	
+	
+}
